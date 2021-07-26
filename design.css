@@ -1,0 +1,84 @@
+body {
+  background: url(/images/full-bg-01.jpg);
+  background-position: center fixed;
+}
+p#logo {
+  color: rgba(255, 0, 0, 0.417);
+  font-size: 40px;
+  /* background: black; */
+  display: inline-block;
+  margin-bottom: 2px;
+  margin-top: 0px;
+  width: 118px;
+  /* height: 130px; */
+  padding: 10px;
+  box-sizing: border-box;
+}
+p#logo:hover{
+    transition: linear;
+    transform: translateX(10px);
+    transition-duration: 1s;
+
+}
+a {
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 40px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  margin: 0px;
+  border-style: border-box;
+  display: inline-block;
+}
+a:hover {
+  background: teal;
+  width: 200;
+  height: 50px;
+  transition: 0.4s;
+  transform: translateY(7px);
+}
+div.second {
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 100px;
+  text-align: right;
+  font-size: 90px;
+}
+div.third {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+p.sampletext {
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.b{
+  align-items: left;
+}
+a.b {
+  background: none;
+  position: relative;
+ 
+}
+
+
+
+a.b:hover {
+  background: teal;
+  transition-property: background;
+  width: 100px;
+  height: 100px;
+  transition-duration: 1s;
+}
+
+ul#friends {
+  /* background: black; */
+  background: rgba(0, 0, 0, 1);
+  list-style: none;
+  font-size: 30px;
+  display: block;
+  height: 205px;
+  width: 900px;
+ 
+}
